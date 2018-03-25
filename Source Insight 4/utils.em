@@ -297,10 +297,11 @@ macro CCInsertFileHeader()
     InsBufLine(hbuf, 1, "***************************************************************************")
     InsBufLine(hbuf, 2, "* \@description: ")
     InsBufLine(hbuf, 3, "* \@author: hello_chenchen")
-    InsBufLine(hbuf, 4, "* \@date:  @Year@-@Month@-@Day@ @Hour@:@Minute@:@Second@")
-    InsBufLine(hbuf, 5 , "**************************************************************************")
+    InsBufLine(hbuf, 4, "* \@email: hello_chenchen@163.com")
+    InsBufLine(hbuf, 5, "* \@date:  @Year@-@Month@-@Day@ @Hour@:@Minute@:@Second@")
+    InsBufLine(hbuf, 6 , "**************************************************************************")
 
-    InsBufLine(hbuf, 6, "*/")
+    InsBufLine(hbuf, 7, "*/")
 }
 
 //添加函数注释
@@ -321,7 +322,8 @@ macro CCInsertHeader()
     InsBufLine(hbuf, lnFirst, "    /*******************************************************************************")
     InsBufLine(hbuf, lnFirst+1, "    *\@description: ")
     InsBufLine(hbuf, lnFirst+2, "    *\@author: hello_chenchen")
-    InsBufLine(hbuf, lnFirst+3, "    *\@dateTime: @Year@-@Month@-@Day@ @Hour@:@Minute@:@Second@")
-    InsBufLine(hbuf, lnFirst+4, "    *******************************************************************************/")
+    InsBufLine(hbuf, lnFirst+3, "    *\@email: hello_chenchen@163.com")
+    InsBufLine(hbuf, lnFirst+4, "    *\@dateTime: @Year@-@Month@-@Day@ @Hour@:@Minute@:@Second@")
+    InsBufLine(hbuf, lnFirst+5, "    *******************************************************************************/")
 
 }
