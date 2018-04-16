@@ -1,0 +1,5 @@
+1. Text Marker (Highlighter)
+    {
+        "key": "ctrl+oem_7",
+        "command": "textmarker.markText"
+    }
