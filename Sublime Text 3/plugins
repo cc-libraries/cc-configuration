@@ -1,0 +1,5 @@
+1. HighlightWords
+[
+    { "keys": ["ctrl+'"], "command": "highlight_words" },
+    { "keys": ["ctrl+alt+u"], "command": "unhighlight_words" }
+]
