@@ -1,0 +1,64 @@
+[
+    {
+        "key": "ctrl+q",
+        "command": "textmarker.toggleHighlight"
+    },
+    {
+        "key": "cmd+d",
+        "command": "editor.action.deleteLines",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "cmd+shift+k",
+        "command": "-editor.action.deleteLines",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "cmd+g",
+        "command": "-workbench.action.terminal.findNext",
+        "when": "terminalFindWidgetFocused"
+    },
+    {
+        "key": "cmd+g",
+        "command": "-workbench.action.terminal.findNextTerminalFocus",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "cmd+g",
+        "command": "-editor.action.nextMatchFindAction",
+        "when": "editorFocus"
+    },
+    {
+        "key": "cmd+g",
+        "command": "workbench.action.gotoLine"
+    },
+    {
+        "key": "ctrl+g",
+        "command": "-workbench.action.gotoLine"
+    },
+    {
+        "key": "cmd+u",
+        "command": "workbench.action.navigateBack"
+    },
+    {
+        "key": "ctrl+-",
+        "command": "-workbench.action.navigateBack"
+    },
+    {
+        "key": "cmd+u",
+        "command": "-cursorUndo",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "cmd+y",
+        "command": "workbench.action.navigateForward"
+    },
+    {
+        "key": "ctrl+shift+-",
+        "command": "-workbench.action.navigateForward"
+    },
+    {
+        "key": "shift+cmd+y",
+        "command": "-workbench.debug.action.toggleRepl"
+    }
+]
