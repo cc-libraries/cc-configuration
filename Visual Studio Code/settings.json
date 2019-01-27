@@ -1,6 +1,38 @@
 {
     "workbench.iconTheme": "vscode-icons",
-    
+    //高亮注释
+    "todohighlight.keywords": [
+        {
+            "text": "TODO",
+            "color": "white",
+            "backgroundColor": "orange",
+            "overviewRulerColor": "white"
+        },
+        {
+            "text": "FIXED",
+            "color": "white",
+            "backgroundColor": "green",
+            "overviewRulerColor": "white"
+        },
+        {
+            "text": "LINK",
+            "color": "white",
+            "backgroundColor": "blue",
+            "overviewRulerColor": "white"
+        },
+        {
+            "text": "COMPILE",
+            "color": "white",
+            "backgroundColor": "red",
+            "overviewRulerColor": "white"
+        },
+        {
+            "text": "COMMENT",
+            "color": "white",
+            "backgroundColor": "#996633",
+            "overviewRulerColor": "white"
+        }
+    ],
     // 控制编辑器中呈现空白字符的方式，可能为“无”、“边界”和“全部”。“边界”选项不会在单词之间呈现单空格。
     "editor.renderWhitespace": "all",
     "java.errors.incompleteClasspath.severity": "ignore",
