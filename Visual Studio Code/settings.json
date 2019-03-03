@@ -9,6 +9,12 @@
             "overviewRulerColor": "white"
         },
         {
+            "text": "FIXME",
+            "color": "white",
+            "backgroundColor": "grey",
+            "overviewRulerColor": "white"
+        },
+        {
             "text": "FIXED",
             "color": "white",
             "backgroundColor": "green",
