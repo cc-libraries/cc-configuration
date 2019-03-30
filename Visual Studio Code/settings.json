@@ -3,39 +3,51 @@
     //高亮注释
     "todohighlight.keywords": [
         {
-            "text": "TODO",
+            "text": "TODO:",
             "color": "white",
             "backgroundColor": "orange",
             "overviewRulerColor": "white"
         },
         {
-            "text": "FIXME",
+            "text": "FIXME:",
             "color": "white",
             "backgroundColor": "#CE0071",
             "overviewRulerColor": "white"
         },
         {
-            "text": "FIXED",
+            "text": "FIXED:",
             "color": "white",
             "backgroundColor": "green",
             "overviewRulerColor": "white"
         },
         {
-            "text": "LINK",
+            "text": "LINK:",
             "color": "white",
             "backgroundColor": "blue",
             "overviewRulerColor": "white"
         },
         {
-            "text": "COMPILE",
+            "text": "COMPILE:",
             "color": "white",
-            "backgroundColor": "red",
+            "backgroundColor": "#76E590",
             "overviewRulerColor": "white"
         },
         {
-            "text": "COMMENT",
+            "text": "COMMENT:",
             "color": "white",
             "backgroundColor": "#996633",
+            "overviewRulerColor": "white"
+        },
+        {
+            "text": "ERROR:",
+            "color": "white",
+            "backgroundColor": "#red",
+            "overviewRulerColor": "white"
+        },
+        {
+            "text": "NOTICE:",
+            "color": "white",
+            "backgroundColor": "#BBC70D",
             "overviewRulerColor": "white"
         }
     ],
