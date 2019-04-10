@@ -1,9 +1,27 @@
 1. Text Marker (Highlighter)
+    ```
     {
         "key": "ctrl+oem_7",
         "command": "textmarker.markText"
     }
+    ```
 
 2. TODO highlight
 
-3. PlantUML
+3. PlantUML //remove
+
+4. c/c++
+
+5. java extensions package
+
+6. eslint
+
+7. tslint
+
+8. SVG Viewer
+
+9. visual studio InteliCode
+
+10. vscode-icons
+
+11. yUML
