@@ -1,2 +1,2 @@
-# personal_settings
-different software settings for cc-libraries
+# cc-configuration
+different software configuration for cc-libraries
