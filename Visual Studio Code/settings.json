@@ -41,13 +41,19 @@
         {
             "text": "ERROR:",
             "color": "white",
-            "backgroundColor": "#red",
+            "backgroundColor": "red",
             "overviewRulerColor": "white"
         },
         {
             "text": "NOTICE:",
             "color": "white",
             "backgroundColor": "#BBC70D",
+            "overviewRulerColor": "white"
+        },
+        {
+            "text": "DEPRECATED:",
+            "color": "white",
+            "backgroundColor": "grey",
             "overviewRulerColor": "white"
         }
     ],
